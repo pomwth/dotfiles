@@ -1,14 +1,18 @@
 #!/bin/bash
 
-DIR=`dirname "$0"`
+SCRIPT=$(readlink -f "$0")
+DIR=$(dirname "$SCRIPT")
 UNI=$(date +'%Y%m%d%H%M%S')
 
 # Link dot file folder
-mv ~/.files ~/.files-bck$UNI
-ln -s $DIR/configs ~/.files
+mv ~/.files ~/.bck/.files-bck$UNI
+ln -fs $DIR/configs ~/.files
 
 # zsh
-mv ~/.zshrc ~/.zshrc-bck$UNI
-ln -s ~/.files/zsh/.zshrc ~/.zshrc
+mv ~/.zshrc ~/.bck/.zshrc-bck$UNI
+ln -fs ~/.files/zsh/.zshrc ~/.zshrc
 
 sudo apt install tmux -y
+mv ~/.tmux.conf ~/.bck/.tmux.conf-bck$UNI
+ln -fs ~/.files/tmux/tmux.conf ~/.tmux.conf
+
