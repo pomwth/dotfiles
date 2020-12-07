@@ -21,8 +21,10 @@ set smartcase
 set hlsearch
 
 set expandtab
+set shiftwidth=4
 set smarttab
 set smartindent
+set autoindent
 
 
 source ~/.config/nvim/plugged.vim
