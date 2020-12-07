@@ -21,8 +21,10 @@ noremap gl 20zl
 " use alt + left/right keys to switch buffers
 noremap <A-Left> :bprev<cr>
 noremap <A-h> :bprev<cr>
+noremap <S-h> :bprev<cr>
 noremap <A-Right> :bnext<cr>
 noremap <A-l> :bnext<cr>
+noremap <S-l> :bnext<cr>
 " use alt + w to close current buffer
 noremap <A-w> :bdelete<cr>
 " use alt + W to close all buffers but current one
@@ -37,6 +39,9 @@ nnoremap <A-Up> ddkP
 nnoremap <A-k> ddkP
 nnoremap <A-Down> ddp
 nnoremap <A-j> ddp
+
+" COC Completion by ENTER
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
 " leading
 let mapleader = ","

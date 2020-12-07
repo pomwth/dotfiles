@@ -26,5 +26,5 @@ set smartindent
 source ~/.config/nvim/plugged.vim
 if exists("g:init_vim_loaded")
   source ~/.config/nvim/keymap.vim
-  source ~/.config/nvim/coc.vim
+  "source ~/.config/nvim/coc.vim
 endif
