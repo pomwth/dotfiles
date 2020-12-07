@@ -22,4 +22,4 @@ ln -fs $HOME/.tmux/tmux.conf $HOME/.tmux.conf
 
 rm -Rf $HOME/.config/nvim
 mkdir -p $HOME/.config
-ln -fs $HOME/$DOTFILES
+ln -fs $HOME/$DOTFILES/nvim $HOME/.config/nvim
