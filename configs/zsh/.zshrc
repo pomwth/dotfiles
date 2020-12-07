@@ -23,3 +23,5 @@ ZSH_TMUX_AUTOCONNECT=false
 [[ $- != *i* ]] && return
 # Otherwise start tmux
 [[ -z "$TMUX" ]] && exec tmux
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

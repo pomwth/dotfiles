@@ -5,7 +5,9 @@ set clipboard=unnamed
 
 set ffs=unix,dos,mac
 
-set laststatus=2
+set laststatus=1
+set noshowmode
+set showtabline=2
 set cmdheight=1
 
 set colorcolumn=79
