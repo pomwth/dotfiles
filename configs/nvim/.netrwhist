@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/pom/Workspace/dotfiles/configs/nvim/plugged'
+let g:netrw_dirhist_8='/home/pom/Workspace/dotfiles/configs/nvim'
+let g:netrw_dirhist_7='/home/pom/Workspace/dotfiles/configs'
+let g:netrw_dirhist_6='/home/pom/Workspace/dotfiles'
+let g:netrw_dirhist_5='/home/pom/Workspace/dotfiles/configs/nvim'
+let g:netrw_dirhist_4='/home/pom/Workspace/dotfiles/configs'
+let g:netrw_dirhist_3='/home/pom/Workspace/dotfiles'
+let g:netrw_dirhist_2='/home/pom/Workspace/dotfiles/configs/nvim'
+let g:netrw_dirhist_1='/home/pom/Workspace/dotfiles/configs'
+let g:netrw_dirhist_0='/home/pom/Workspace/dotfiles'
