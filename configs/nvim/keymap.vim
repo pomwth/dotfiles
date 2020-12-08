@@ -17,6 +17,8 @@ nnoremap ga a <ESC>
 " Scroll left/right
 noremap gh 20zh
 noremap gl 20zl
+noremap gj 20j
+noremap gk 20k
 
 " use alt + left/right keys to switch buffers
 noremap <A-Left> :bprev<cr>
@@ -61,6 +63,9 @@ nnoremap <leader>f :Rg<cr>
 nnoremap <leader><A-f> :Rg!<cr>
 nnoremap <leader>F :RG<cr>
 nnoremap <leader><A-F> :RG!<cr>
+
+" Git Messenger
+nnoremap <leader>m :GitMessenger<cr>
 
 " vim-maximizer
 nnoremap <leader>z :MaximizerToggle!<cr>

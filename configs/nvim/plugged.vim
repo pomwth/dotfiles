@@ -54,6 +54,7 @@ Plug 'dense-analysis/ale'
 "Plug 'kkoomen/vim-doge', { 'on': 'DogeGenerate' }
 
 " Git
+Plug 'rhysd/git-messenger.vim'
 "Plug 'airblade/vim-gitgutter'
 "Plug 'tpope/vim-fugitive'
 
