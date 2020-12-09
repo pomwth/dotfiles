@@ -6,7 +6,7 @@ set clipboard=unnamed
 set ffs=unix,dos,mac
 
 set laststatus=1
-set noshowmode
+"set noshowmode
 set showtabline=2
 set cmdheight=1
 
@@ -30,5 +30,5 @@ set autoindent
 source ~/.config/nvim/plugged.vim
 if exists("g:init_vim_loaded")
   source ~/.config/nvim/keymap.vim
-  "source ~/.config/nvim/coc.vim
+  source ~/.config/nvim/coc.vim
 endif
