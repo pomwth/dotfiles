@@ -72,7 +72,7 @@ Plug 'mhinz/vim-startify'
 "Plug 'wakatime/vim-wakatime'
 
 " Session management
-"Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-obsession'
 "Plug 'djoshea/vim-autoread'
 
 " Color scheme
@@ -84,6 +84,10 @@ if !exists("g:init_vim_loaded")
   finish
 endif
 
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 let NERDTreeSortHiddenFirst = 1
 "let NERDTreeChDirMode = 2
 let NERDTreeHijackNetrw = 1
@@ -91,7 +95,7 @@ let NERDTreeShowHidden = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeAutoDeleteBuffer = 1
 "let NERDTreeIgnore=['\.git$[[dir]]','\.DS_Store$[[file]]']
-let NERDTreeQuitOnOpen=1
+"let NERDTreeQuitOnOpen=1
 
 " NERDTree syntax
 let g:NERDTreeFileExtensionHighlightFullName = 1

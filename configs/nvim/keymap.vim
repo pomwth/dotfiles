@@ -42,9 +42,6 @@ nnoremap <A-k> ddkP
 nnoremap <A-Down> ddp
 nnoremap <A-j> ddp
 
-" COC Completion by ENTER
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
-
 " leading
 let mapleader = ","
 
