@@ -1,0 +1,5 @@
+pane	0	0	:zsh	0	:-	0	:/home/pom	1	zsh	:
+pane	0	1	:vi	1	:*	0	:/home/pom/Workspace/dotfiles	1	vi	:vi
+window	0	0	0	:-	b03d,193x50,0,0,0
+window	0	1	1	:*	b03e,193x50,0,0,1
+state	0	

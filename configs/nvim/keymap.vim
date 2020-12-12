@@ -70,3 +70,4 @@ nnoremap <leader>z :MaximizerToggle!<cr>
 " Manually invoke speeddating in case switch didn't work
 nnoremap <c-a> :if !switch#Switch() <bar>call speeddating#increment(v:count1) <bar> endif<cr>
 nnoremap <c-x> :if !switch#Switch({'reverse': 1}) <bar>call speeddating#increment(-v:count1) <bar> endif<cr>
+

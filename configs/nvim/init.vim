@@ -1,7 +1,12 @@
+" be IMproved!
+set nocompatible
+
+set scrolloff=10
+set sidescrolloff=10
 set number
 set relativenumber
 set nowrap
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 set ffs=unix,dos,mac
 

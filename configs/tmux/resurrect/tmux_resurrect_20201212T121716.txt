@@ -1,0 +1,5 @@
+pane	5	0	:zsh	0	:-	0	:/home/pom/Workspace/dotfiles	1	zsh	:
+pane	5	1	:zsh	1	:*	0	:/home/pom	1	zsh	:
+window	5	0	0	:-	5853,193x50,0,0,14
+window	5	1	1	:*	5854,193x50,0,0,15
+state	5	
