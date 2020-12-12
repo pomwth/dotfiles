@@ -16,9 +16,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=false
-
 # If not running interactively, do not do anything
 [[ $- != *i* ]] && return
 # Otherwise start tmux

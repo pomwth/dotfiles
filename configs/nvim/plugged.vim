@@ -95,7 +95,7 @@ let NERDTreeShowHidden = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeAutoDeleteBuffer = 1
 "let NERDTreeIgnore=['\.git$[[dir]]','\.DS_Store$[[file]]']
-"let NERDTreeQuitOnOpen=1
+let NERDTreeQuitOnOpen=1
 
 " NERDTree syntax
 let g:NERDTreeFileExtensionHighlightFullName = 1
